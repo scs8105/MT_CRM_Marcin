@@ -29,10 +29,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *
  */
 @Controller()
-@RequestMapping(value = "**/psMonitoring/psPerformance/**")
+@RequestMapping(value = {"**/psMonitoring/psPerformance/**", "/psMonitoring/psPerformance/**", "**/psPerformance/**"})
 public class PSPerformanceController
 {
 	private static final String VIEW_BASE = "psMonitoring/psPerformance/";
+	private static final Logger LOG = Logger.getLogger(PSPerformanceController.class);
 
 	@Autowired
 	private PSPerformanceTestsFacade performanceTestsFacade;
@@ -43,6 +44,7 @@ public class PSPerformanceController
 	@RequestMapping(value = "/")
 	public String psPerformance(final Model model) throws IOException
 	{
+		LOG.debug("PSPErformanceController executed and returning " + VIEW_BASE + "psPerformance");
 		model.addAttribute("wikiPerformance", wikiPerformance);
 		return VIEW_BASE + "psPerformance";
 	}
