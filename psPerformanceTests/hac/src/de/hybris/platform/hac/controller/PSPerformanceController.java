@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *
  */
 @Controller()
-@RequestMapping(value = "/psMonitoring/psPerformance/**")
+@RequestMapping(value = "**/psMonitoring/psPerformance/**")
 public class PSPerformanceController
 {
 	private static final String VIEW_BASE = "psMonitoring/psPerformance/";
