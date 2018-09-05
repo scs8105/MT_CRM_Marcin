@@ -48,10 +48,7 @@
        "customsitetest",
        "customsiteinitialdata",
        "customsitestorefront",
-       "personalizationsearchsamplesaddon",
-       "cmscockpit",
-       "smartedit",
-       "psPerformanceTests"
+       "personalizationsearchsamplesaddon"
    ],
    "storefrontAddons" : [
         {
@@ -118,7 +115,10 @@
             "addon": "assistedservicestorefront",
             "storefront": "customsitestorefront",
             "template": "yacceleratorstorefront"
-        }     
+
+        }
+        
+
         
     ],
    "properties": [
@@ -193,10 +193,7 @@
                 {
                     "name": "customsitestorefront",
                     "contextPath": ""
-                },
-                {
-                    "name": "smartedit",
-                    "contextPath": "/smartedit"
+
                 }
             ]
         },
