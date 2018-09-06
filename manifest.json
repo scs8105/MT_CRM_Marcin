@@ -48,7 +48,9 @@
        "customsitetest",
        "customsiteinitialdata",
        "customsitestorefront",
-       "personalizationsearchsamplesaddon"
+       "personalizationsearchsamplesaddon",
+       "y2ysyncbackoffice", 
+       "datahubadapter"
    ],
    "storefrontAddons" : [
         {
@@ -146,9 +148,13 @@
             "persona": "production"
         },
         {
-     	 "key":"hac.webroot",
-     	 "value":"/hac"
-    	}
+     	      "key":"hac.webroot",
+     	      "value":"/hac"
+    	  },
+        {
+            "key":"persistence.legacy.mode",
+            "value":"false"
+        }
     ],
    "aspects": [
          {
@@ -168,9 +174,9 @@
                     "contextPath": "/backoffice"
                 },
                 {
-                    "name": "cmscockpit",
-                    "contextPath": "/cmscockpit"
-                }
+                    "name": "datahubadapter",
+                    "contextPath": "/datahubadapter"
+                },
             ]
         },
         {
