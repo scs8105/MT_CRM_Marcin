@@ -166,6 +166,22 @@
         {
             "key": "y2ysync.home.url",
             "value": "https://backoffice:8081"
+        },
+        {
+            "key": "datahub.backoffice.rest.client.username",
+            "value": "admin"
+        },
+        {
+            "key": "datahub.backoffice.rest.client.password",
+            "value": "nimda"
+        },
+        {
+            "key": "datahubadapter.datahuboutbound.user",
+            "value": "admin"
+        },
+        {
+            "key": "datahubadapter.datahuboutbound.password",
+            "value": "nimda"
         }
     ],
    "aspects": [
