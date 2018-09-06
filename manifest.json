@@ -50,7 +50,7 @@
        "customsitestorefront",
        "personalizationsearchsamplesaddon",
        "y2ysyncbackoffice", 
-       "datahubadapter"
+       "y2ysyncdemoelectronics"
    ],
    "storefrontAddons" : [
         {
@@ -154,6 +154,18 @@
         {
             "key":"persistence.legacy.mode",
             "value":"false"
+        },
+        {
+            "key":"y2ysync.datahub.url",
+            "value":"https://datahub:8080/datahub-webapp/v1/y2ysync/v60"
+        },
+        {
+            "key": "datahubadapter.datahuboutbound.url",
+            "value": "http://datahub:8080/datahub-webapp/v1"
+        },
+        {
+            "key": "y2ysync.home.url",
+            "value": "https://backoffice:8081"
         }
     ],
    "aspects": [
@@ -172,11 +184,7 @@
                 {
                     "name": "backoffice",
                     "contextPath": "/backoffice"
-                },
-                {
-                    "name": "datahubadapter",
-                    "contextPath": "/datahubadapter"
-                },
+                }
             ]
         },
         {
