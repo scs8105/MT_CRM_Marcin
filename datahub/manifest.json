@@ -2,7 +2,8 @@
     "datahub_version" : "6.7.0.2-RC1",
     "extensions" : [
  		"idocLoader",
-        "com.hybris.datahub:sapcoreconfiguration:6.7.0.2-RC1"
+        "com.hybris.datahub:sapcoreconfiguration:6.7.0.2-RC1",
+        "de.hybris.platform:y2ysync-datahub-ext:6.7.0.0-RC19"
  
     ]
 }
