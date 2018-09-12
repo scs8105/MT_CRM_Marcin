@@ -1,6 +1,7 @@
 {
     "datahub_version" : "6.7.0.2-RC1",
     "extensions" : [
+ 		"idocLoader",
  
         "com.hybris.datahub:sapcoreconfiguration:6.7.0.2-RC1",
  
@@ -16,8 +17,7 @@
  
         "com.hybris.datahub:product-canonical:6.7.0.2-RC1",
  
-        "com.hybris.datahub:sappricing-canonical:6.7.0.2-RC1",
-        "com.hybris.datahub:sappricing-canonical-bonusbuy:6.7.0.2-RC1",
+        "com.hybris.datahub:sappricing-canonical:6.7.0.0-RC1",
         "com.hybris.datahub:sappricing-raw:6.7.0.2-RC1",
         "com.hybris.datahub:sappricing-target:6.7.0.2-RC1",
  
