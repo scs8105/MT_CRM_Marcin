@@ -1,8 +1,8 @@
 {
-   "commerceSuiteVersion": "6.7.0.1",
+   "commerceSuiteVersion": "6.7.0.2",
    "troubleshootingModeEnabled": true,
    "extensions": [
-   	   "mcc",
+       "mcc",
        "backoffice",
        "platformbackoffice",
        "basecommercebackoffice",  
@@ -49,8 +49,7 @@
        "customsiteinitialdata",
        "customsitestorefront",
        "personalizationsearchsamplesaddon",
-       "y2ysyncbackoffice", 
-       "y2ysyncdemoelectronics"
+       "y2ysyncbackoffice"
    ],
    "storefrontAddons" : [
         {
@@ -148,16 +147,16 @@
             "persona": "production"
         },
         {
-     	      "key":"hac.webroot",
-     	      "value":"/hac"
-    	  },
+            "key":"hac.webroot",
+            "value":"/hac"
+        },
         {
             "key":"persistence.legacy.mode",
             "value":"false"
         },
         {
             "key":"y2ysync.datahub.url",
-            "value":"https://datahub:8080/datahub-webapp/v1/y2ysync/v60"
+            "value":"http://datahub:8080/datahub-webapp/v1/y2ysync/v60"
         },
         {
             "key": "datahubadapter.datahuboutbound.url",
@@ -165,7 +164,7 @@
         },
         {
             "key": "y2ysync.home.url",
-            "value": "https://backoffice.cyqusdd2-emeadatah1-p3-public.model-t.myhybris.cloud"
+            "value": "https://backgroundprocessing.cyqusdd2-emeadatah1-p4-public.model-t.myhybris.cloud"
         },
         {
             "key": "datahub.backoffice.rest.client.username",
