@@ -1,6 +1,7 @@
 {
     "datahub_version" : "6.7.0.2-RC1",
     "extensions" : [
+        "com.hybris.datahub:sapcoreconfiguration:6.7.0.2-RC1",
         "de.hybris.platform:y2ysync-datahub-ext:6.7.0.0-RC19"
      ]
 }
