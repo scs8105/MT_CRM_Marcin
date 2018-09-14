@@ -117,6 +117,8 @@
     "sapbusinessagreementexchangeb2b",
     "sapbusinessagreementservicesb2b",
     "yacceleratorstorefront",
+    "b2bsapproductavailabilitycrm",
+    "sapproductavailabilitycrm",
     "yb2bacceleratorstorefront"
     ],
     "storefrontAddons": [
