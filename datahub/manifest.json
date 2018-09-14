@@ -1,7 +1,6 @@
 {
     "datahub_version" : "6.7.0.2-RC1",
     "extensions" : [
-        "bicycle-apparel",
         "com.hybris.datahub:party-canonical:6.7.0.0-RC2",
         "com.hybris.datahub:sapcoreconfiguration:6.7.0.0-RC2",
 
