@@ -116,6 +116,7 @@
     "sapbusinessagreementfacadesb2b",
     "sapbusinessagreementexchangeb2b",
     "sapbusinessagreementservicesb2b",
+    "yacceleratorstorefront",
     "yb2bacceleratorstorefront"
     ],
     "storefrontAddons": [
