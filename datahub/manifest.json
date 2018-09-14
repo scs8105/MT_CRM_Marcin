@@ -33,7 +33,7 @@
         
         "com.hybris.datahub:sapinvoice-canonical:6.7.0.0-RC2",
         "com.hybris.datahub:sapinvoice-raw:6.7.0.0-RC2",
-        "com.hybris.datahub:sapinvoice-target:6.7.0.0-RC2",
+        "com.hybris.datahub:sapinvoice-target:6.7.0.0-RC2"
 
     ]
 }
