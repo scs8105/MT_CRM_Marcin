@@ -393,7 +393,7 @@
         {
             "key": "keygen.businessAgreement.sap_businessAgreement_id.start",
             "value": "000003010000"
-        },
+        }
     ],
     "aspects": [
         {
