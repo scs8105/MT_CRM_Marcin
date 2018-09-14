@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testclasses><sapcrmibaseservices><testclass>com.sap.hybris.crm.sapcrmibaseservices.ibase.impl.DefaultIBaseServiceTest</testclass><testclass>com.sap.hybris.crm.sapcrmibaseservices.ibase.impl.DefaultIBaseServiceIntegrationTest</testclass></sapcrmibaseservices></testclasses>
