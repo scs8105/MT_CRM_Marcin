@@ -367,6 +367,10 @@
             "value": "0006200000"
         },
         {
+            "key": "keygen.crmcustomer.sap_contact_id.start",
+            "value": "0000490000"
+        },
+        {
             "key": "sapcustomerexchange.outbound.datahub.feed",
             "value": "SAPCONSUMER_OUTBOUND_FEED"
         },
