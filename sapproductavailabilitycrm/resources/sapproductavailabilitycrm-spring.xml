@@ -90,8 +90,8 @@
         <property name="flexibleSearchService" ref="flexibleSearchService"/>
     </bean>
 
- 	<alias alias="futureStockService" name="defaultSapFutureStockServicecrm"/>
-	<bean id="defaultSapFutureStockServicecrm" parent="defaultFutureStockService"
+ 	<alias alias="futureStockService" name="defaultSapFutureStockService"/>
+	<bean id="defaultSapFutureStockService" parent="defaultFutureStockService"
 	      class="de.hybris.platform.sap.sapproductavailability.service.impl.DefaultSapFutureStockService">
 	       <property name="sapProductAvailabilityService" ref="defaultSapProductAvailabilityService"/> 
 	</bean>
